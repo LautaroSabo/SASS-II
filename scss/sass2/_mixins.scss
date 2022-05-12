@@ -1,0 +1,44 @@
+@import "../variables/variables";
+
+
+@mixin grid-responsive-650px {
+    .section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(6,auto);
+        justify-items: center;
+        grid-template-areas:"box-img1"
+                            "box-img2"
+                            "box-img3"
+                            "box-img4"
+                            "box-img5"
+                            "box-img6";
+    }
+    .ventana-inicio{
+        display: none;
+    }
+    .section img{
+        height: 250px;
+        width: 250px;
+    }
+}
+
+@mixin grid-responsive-992px {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,auto);
+    justify-items: center;
+    grid-template-areas:"box-img1 box-img2"
+                        "box-img3 box-img4"
+                        "box-img5 box-img6";
+} 
+
+@mixin grid-index{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,auto);
+    justify-items: center;
+    grid-template-areas:"box-img1 box-img2 box-img3"
+                        "box-img4 box-img5 box-img6";
+}
+

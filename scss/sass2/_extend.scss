@@ -1,0 +1,38 @@
+@import "../variables/variables";
+@import "_mixins.scss";
+
+.caja{
+    margin: 5px;
+}
+
+    .box-img1{
+        @extend .caja;
+        grid-area: box-img1;
+    }
+
+    .box-img2{
+        @extend .caja;
+        grid-area: box-img2;
+    }
+
+    .box-img3{
+        @extend .caja;
+        grid-area: box-img3;
+    }
+
+    .box-img4{
+        @extend .caja;
+        grid-area: box-img4;
+    }
+
+    .box-img5{
+        @extend .caja;
+        grid-area: box-img5;
+    }
+
+    .box-img6{
+        @extend .caja;
+        grid-area: box-img6;
+    }
+
+

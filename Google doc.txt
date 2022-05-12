@@ -1,0 +1,12 @@
+Lo que hice fue agregar SASS a mi proyecto. Luego cree mis carpetas en el partials,junto con el sass2, donde se encuentran el exten y mixins
+
+Despues de hacer todos mis archivos principales agarre un cuaderno entre al style.css de mi anterior trabajo y comence a tomar notas de las posibles variables que podia tener.
+
+Termine con los de variables y empece con lo de mixins. En el mixin hasta ahora solo puse lo de grid que es lo que mas se repite en lo que seria mi idex.
+Junto con el responsive, que es lo que mas cambia en mi index. Note que tenia problemas de compatibilidad con el responsive,
+lo que hice fue agregar un min,max-width a los @media para que no me generara conflico a la hora de llegar a esa escala de PX.
+
+Me costo mucho hacer lo de extend ya que no entendia nada, entiendo que es como el mixin pero todavia no se como aplicarlo bien.
+lo que hice fue tomar un parametro que se repetia en los contenedores de las img. 
+
+Termine agregando GitHub al proyecto

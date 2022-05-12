@@ -1,0 +1,42 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+
+
+
+
+@media screen and (max-width: 650px){
+    @include grid-responsive-650px
+}
+
+@media screen and (min-width: 650px) and (max-width: 992px) {
+    .section{
+    @include grid-responsive-992px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .section{
+        @include grid-index;
+    }
+}
+
+
+
+img:hover{
+    opacity: 0.5;
+}
+
+.container-img{
+    margin: 0 20px 70px;
+    border-radius: 4px;
+}
+
+
+.section img{
+    height: 300px;
+    width: 300px;
+    border-radius: 4px;
+}
+
